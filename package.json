@@ -2,8 +2,7 @@
   "name": "vue-terminal-emulator",
   "version": "1.0.0",
   "description": "A terminal emulator in Vue",
-  "author": "dongsuo <xuxiaofei1.0@outlook.com>",
-  "private": true,
+  "author": "re0marb1e <zhxt1016@gmail.com>",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
@@ -11,6 +10,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "sass-loader": "^6.0.6",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
